@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    //setWindowFlags(Qt::Dialog & Qt::WindowMinimizeButtonHint);
+    setFixedSize(QSize(400,500));
     ui->pushButtonContinue->hide();
     ui->pushButtonPause->hide();
     ui->pushButtonStop->hide();

@@ -1,4 +1,4 @@
-//https://www.oschina.net/code/snippet_1243295_48623
+// https://www.oschina.net/code/snippet_1243295_48623
 
 #include "mainwindow.h"
 #include <QApplication>
